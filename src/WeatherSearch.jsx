@@ -40,6 +40,7 @@ function WeatherSearch() {
       <div>
         {form}
         <ul>
+          <h3>{city}</h3>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Description: {weather.description}</li>
           <li>Humidity: {weather.humidity}%</li>
